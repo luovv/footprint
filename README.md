@@ -10,3 +10,11 @@ Run `grunt` for building and `grunt serve` for preview.
 ## Testing
 
 Running `grunt test` will run the unit tests with karma.
+
+
+
+python environment:
+	virtualenv env
+	pip install django
+	pip install djangorestframework
+	pip install pygments

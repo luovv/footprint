@@ -8,10 +8,16 @@
  * Controller of the vvgdApp
  */
 angular.module('vvgdApp')
-  .controller('AboutCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+  .controller('AboutCtrl', 
+  	['$scope', function($scope) {
+        $scope.test = 'Hola!';
+    }]
+  	// function () {
+	  //   this.awesomeThings = [
+	  //     'HTML5 Boilerplate',
+	  //     'AngularJS',
+	  //     'Karma'
+	  //   ];
+	  //   this.test="abcdefg";
+	  // }
+  );
